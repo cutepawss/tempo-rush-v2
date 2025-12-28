@@ -497,7 +497,7 @@ boxShadow: '0 0 30px rgba(0, 243, 255, 0.5), inset 0 0 20px rgba(0, 243, 255, 0.
 border: '2px solid #00f3ff'
 }}>
 <img
-src="/flag-holder.png"
+src="flag-holder.png"
 alt="Asset Visual"
 style={{
 width: '100%',
