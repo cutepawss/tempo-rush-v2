@@ -8,7 +8,7 @@
 
 ---
 
-## 🕹️ MISSION OBJECTIVE
+## MISSION OBJECTIVE
 
 The protocol operates on a competitive dominance model:
 1. **Capture:** Seize the digital flag from the current bearer.
@@ -17,7 +17,7 @@ The protocol operates on a competitive dominance model:
 
 ---
 
-## 🛠️ TECH STACK & ARCHITECTURE
+## TECH STACK & ARCHITECTURE
 
 Designed for zero latency interactions and a retro tactical user experience:
 
@@ -29,7 +29,7 @@ Designed for zero latency interactions and a retro tactical user experience:
 
 ---
 
-## 📡 PROTOCOL PARAMETERS
+## PROTOCOL PARAMETERS
 
 | Parameter | Value |
 | :--- | :--- |
@@ -41,7 +41,7 @@ Designed for zero latency interactions and a retro tactical user experience:
 
 ---
 
-## 🚀 LOCAL UPLINK (DEVELOPMENT)
+## LOCAL UPLINK (DEVELOPMENT)
 
 To clone the repository and establish a local environment:
 
