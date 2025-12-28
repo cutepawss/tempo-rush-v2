@@ -606,22 +606,18 @@ function App() {
 
   useEffect(() => {
     const checkStatus = () => {
-      const now = new Date();
-      const h = now.getUTCHours();
-      const m = now.getUTCMinutes();
-      const s = now.getUTCSeconds();
+  const now = new Date();
+  const h = now.getUTCHours();
+  const m = now.getUTCMinutes();
+  const s = now.getUTCSeconds();
 
-      if (h === 0 && m < 30) {
-        setIsSnapshotTime(true);
-        setTimeToSnapshot("SNAPSHOT ACTIVE");
-      } else {
-        setIsSnapshotTime(false);
-        const hoursLeft = 23 - h;
-        const minutesLeft = 59 - m;
-        const secondsLeft = 59 - s;
-        setTimeToSnapshot(`${hoursLeft}h ${minutesLeft}m ${secondsLeft}s`);
-      }
-    };
+  setIsSnapshotTime(true); 
+
+  const hoursLeft = 23 - h;
+  const minutesLeft = 59 - m;
+  const secondsLeft = 59 - s;
+  setTimeToSnapshot(`${hoursLeft}h ${minutesLeft}m ${secondsLeft}s`);
+};
 
     const timer = setInterval(checkStatus, 1000);
     checkStatus(); 
