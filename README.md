@@ -47,7 +47,7 @@ To clone the repository and establish a local environment:
 
 ```bash
 # Clone the repository
-git clone [https://github.com/cutepaww/tempo-rush.git](https://github.com/cutepaww/tempo-rush.git)
+git clone [https://github.com/cutepawss/tempo-rush.git](https://github.com/cutepawss/tempo-rush.git)
 
 # Enter the directory
 cd tempo-rush
